@@ -27,9 +27,9 @@ article img {
 #switch3:checked ~ #controls label:nth-child(2),
 #switch4:checked ~ #controls label:nth-child(3),
 #switch5:checked ~ #controls label:nth-child(4) {
-    background: url('../../untitled/images/ButtonLeft.png') no-repeat;
+    background: url('../images/ButtonLeft.png') no-repeat;
     float: left;
-    margin: -120px 0 0 0; /*сдвиг влево*/
+    margin: -120px 0 0 0;
     display: block;
     height: 68px;
     width: 68px;
@@ -40,9 +40,9 @@ article img {
 #switch3:checked ~ #controls label:nth-child(4),
 #switch4:checked ~ #controls label:nth-child(5),
 #switch5:checked ~ #controls label:nth-child(1) {
-    background: url('../../untitled/images/ButtonRight.png') no-repeat;
-/ float: right;
-    margin: -120px 0 0 0; /*сдвиг вправо*/
+    background: url('../images/ButtonRight.png') no-repeat;
+    float: right;
+    margin: -120px 0 0 0;
     display: block;
     height: 68px;
     width: 68px;
