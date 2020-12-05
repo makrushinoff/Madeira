@@ -1,0 +1,129 @@
+.button {
+    text-align: center;
+    width: 160px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #402A22;
+}
+
+.button-text {
+    text-align: center;
+    color: #ffff;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #402A22;
+
+}
+
+.nav-list {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.nav {
+    width: 159px;
+    margin: 0 auto;
+    border-left: 1px solid #402A22;
+}
+
+.nav-1 {
+    width: 159px;
+    margin: 0 auto;
+}
+
+.inside-nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-link {
+    color: #402A22;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: #402A22;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+}
+
+/*.p {*/
+/*    text-align: center;*/
+/*    padding: 100px;*/
+/*    color: #402A22;*/
+/*    font-family: Arial, sans-serif;*/
+/*    font-size: 22px;*/
+/*}*/
+
+.big-logo {
+    margin-top: 30%;
+    margin-left: 15%;
+    text-align: center;
+    padding: 10px;
+}
+
+.banner-content {
+    text-align: center;
+    color: #ffff;
+    padding: 10px;
+}
+
+.banner-intro {
+    margin: 50px;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.about-p {
+    text-align: justify;
+    padding: 10px;
+    color: #402A22;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+}
+
+.row-p {
+    text-align: center;
+    padding: 10px;
+    color: #402A22;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+}
+
+.row-1 {
+    display: inline-block;
+    position: relative;
+}
+
+.row-2 {
+    display: inline-block;
+    position: relative;
+}
+
+.row-3 {
+    display: inline-block;
+    position: relative;
+}
+
+.icon-p {
+    margin-top: 40%;
+    text-align: left;
+    color: #402A22;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+}
+
+
