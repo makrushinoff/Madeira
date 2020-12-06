@@ -17,6 +17,46 @@
 
 footer {
     background-color: #402A22;
+}
+
+.dd-menu {
+    visibility: hidden;
+    display: none;
+    position: absolute;
+    background: white;
+    list-style: none;
+    width: 160px;
+}
+
+li {
+    display: block;
+}
+
+.list li:hover {
+    background: #402A22;
+}
+
+.list li:hover .inside-nav .nav-link {
+    color: white;
+}
+
+ul li:hover > ul,
+.list li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li .nav-link:hover {
+    color: white;
+
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    border-bottom: #402A22;
 
 }
 
