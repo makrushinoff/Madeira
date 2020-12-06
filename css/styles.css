@@ -28,10 +28,6 @@ footer {
     width: 160px;
 }
 
-li {
-    display: block;
-}
-
 .list li:hover {
     background: #402A22;
 }
@@ -40,24 +36,22 @@ li {
     color: white;
 }
 
-ul li:hover > ul,
+.list li:hover > ul,
 .list li ul:hover {
     visibility: visible;
     opacity: 1;
     display: block;
 }
 
-ul li ul li .nav-link:hover {
+.list li .dd-menu li .nav-link:hover {
     color: white;
-
 }
 
-ul li ul li {
+.list li .dd-menu li {
     clear: both;
     width: 100%;
     text-align: center;
     border-bottom: #402A22;
-
 }
 
 .list {
