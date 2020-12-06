@@ -20,7 +20,7 @@ footer {
 
 }
 
-.nav-list {
+.list {
     list-style-type: none;
     margin-bottom: 10px;
 }
@@ -56,14 +56,6 @@ footer {
     font-family: Arial, sans-serif;
     font-size: 36px;
 }
-
-/*.p {*/
-/*    text-align: center;*/
-/*    padding: 100px;*/
-/*    color: #402A22;*/
-/*    font-family: Arial, sans-serif;*/
-/*    font-size: 22px;*/
-/*}*/
 
 .big-logo {
     margin-top: 30%;
@@ -126,4 +118,14 @@ footer {
     font-size: 22px;
 }
 
+h3 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
 
+.footer-text {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
