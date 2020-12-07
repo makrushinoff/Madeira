@@ -5,7 +5,7 @@
 
 .main-wrapper {
     display: grid;
-    grid-template: 1fr/minmax(auto, 160px) 1280px minmax(auto, 160px);
+    grid-template: 1fr/minmax(0, auto) 1280px minmax(0, auto);
 }
 
 .wrapper {
