@@ -1,0 +1,92 @@
+@media screen and (max-width: 320px) {
+    header {
+        display: none;
+    }
+
+    .mBanner {
+        display: block;
+        background-image: url('../mobile-images/mBanner.png');
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .menu-button {
+        margin: 10px;
+    }
+
+    .mBanner-content {
+        text-align: center;
+        color: #ffff;
+    }
+
+    h2 {
+        margin: 40px;
+        color: #402A22;
+        font-family: Arial, sans-serif;
+        font-size: 36px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .row-p {
+        text-align: center;
+        padding: 10px;
+        color: #402A22;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+    }
+
+    .mBanner-intro {
+        margin-top: 120px;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .about-p {
+        line-height: 20px;
+        text-align: justify;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+    }
+
+    .desk-icon {
+        display: none;
+    }
+
+    .m-icon {
+        margin: 0 auto;
+    }
+
+    .icon-p {
+        margin-top: 10%;
+        font-size: 15px;
+    }
+
+    h3 {
+        color: white;
+        font-family: Arial, sans-serif;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .footer-text {
+        color: white;
+        font-family: Arial, sans-serif;
+        font-size: 17px;
+    }
+
+    .manager {
+        display: none;
+    }
+
+    .row_4-5 {
+        margin-left: 25px;
+    }
+}

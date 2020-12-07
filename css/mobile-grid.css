@@ -1,0 +1,164 @@
+@media screen and (max-width: 320px) {
+    .main-wrapper {
+        display: grid;
+        grid-template: 1fr/1fr;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template: 1fr minmax(auto, 325px) / 1fr;
+    }
+
+    .col_1-8 {
+        display: grid;
+        grid-template: 1fr/repeat(8, 40px);
+    }
+
+    .main {
+        grid-row: 1;
+        display: grid;
+        grid-template: 600px 500px 600px 700px 600px/ 1fr;
+    }
+
+    .mBanner {
+        grid-row: 1;
+        display: grid;
+        grid-template: 25% 1fr 1fr/ 1fr;
+    }
+
+    .menu-button {
+        grid-row: 1;
+    }
+
+    .mBanner-content {
+        grid-row: 2/3;
+    }
+
+    .col_1-3 {
+        display: none;
+    }
+
+    .col_1-8latest {
+        display: grid;
+        grid-template: 1fr 1fr/repeat(8, 40px);
+    }
+
+    .col_5-8 {
+        grid-column: 1/9;
+        grid-row: 1;
+        display: grid;
+    }
+
+    .col_1-4 {
+        grid-column: 1/9;
+        grid-row: 2;
+    }
+
+    .row_2-5 {
+        grid-row: 1/6;
+    }
+
+    footer {
+        grid-row: 2;
+    }
+
+    .col_2-7 {
+        grid-column: 1/9;
+        grid-template: repeat(9, 1fr)/1fr 1fr;
+    }
+
+    .pr {
+        display: none;
+    }
+
+    .col_1-2m {
+        grid-column: 1/9;
+        display: grid;
+        grid-template: repeat(9, 1fr) / 1fr 1fr;
+
+    }
+
+    .col-2 {
+        grid-column: 2;
+        display: inline-block;
+    }
+
+    .row-1m {
+        grid-row: 1;
+    }
+
+    .row-2m {
+        grid-row: 2;
+    }
+
+    .row-3m {
+        grid-row: 3;
+    }
+
+    .row-4m {
+        grid-row: 4;
+    }
+
+    .row-5m {
+        grid-row: 5;
+    }
+
+    .row-6m {
+        grid-row: 6;
+    }
+
+    .row-7m {
+        grid-row: 7;
+    }
+
+    .row-8m {
+        grid-row: 8;
+    }
+
+    .row-9m {
+        grid-row: 9;
+    }
+
+    .why-list {
+        grid-row: 1/6;
+    }
+
+    .col_1-8-row_1-10 {
+        display: grid;
+        grid-template: repeat(10, 30px)/repeat(8, 1fr);
+    }
+
+    .col_2-3 {
+        grid-column: 1/5;
+        grid-row: 1/6;
+    }
+
+    .col_4-5 {
+        grid-column: 5/9;
+        grid-row: 1/6;
+    }
+
+    .col_6-8 {
+        grid-column: 1/9;
+        grid-row: 6/11;
+        grid-template: repeat(5, 30px) / 1fr;
+    }
+
+    .row-8 {
+        grid-row: 6;
+    }
+
+    .row_4-5 {
+        grid-row: 3/5;
+    }
+
+    .row-7 {
+        text-align: center;
+        grid-row: 5
+    }
+
+    .col_1-8latest {
+        display: grid;
+        grid-template: 1fr/repeat(8, 40px);
+    }
+}

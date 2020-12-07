@@ -51,6 +51,10 @@ header {
     grid-template: 28% 1fr 1fr/ 1fr;
 }
 
+.banner-content {
+    grid-row: 2/4;
+}
+
 .About-us {
     grid-row: 2;
     grid-template: 1fr /1fr
@@ -60,8 +64,14 @@ header {
     grid-column: 1/4;
 }
 
+.col_1-8latest {
+    display: grid;
+    grid-template: 1fr/repeat(8, 160px);
+}
+
 .col_5-8 {
     grid-column: 5/9;
+    grid-row: 1;
     display: grid;
     grid-template: 1fr/1fr;
 }
@@ -91,6 +101,7 @@ header {
 
 .col_1-4 {
     grid-column: 1/4;
+    grid-row: 1;
     display: grid;
     grid-template: repeat(7, 1fr)/ 1fr;
 }
@@ -167,40 +178,49 @@ footer {
     display: grid;
     grid-template: 1fr/1fr;
 }
-.col_1-8-row_1-10{
+
+.col_1-8-row_1-10 {
     display: grid;
     grid-template: repeat(10, 25px)/repeat(8, 1fr);
 }
-.col_2-3{
+
+.col_2-3 {
     grid-column: 2/4;
     grid-row: 1/7;
     display: grid;
     grid-template: repeat(10, 25px) / 1fr;
 }
-.col_4-5{
+
+.col_4-5 {
     grid-row: 1/9;
     grid-column: 4/6;
     display: grid;
     grid-template: repeat(10, 25px) / 1fr;
 }
-.col_6-8{
+
+.col_6-8 {
     grid-row: 1/8;
     grid-column: 6/9;
     display: grid;
     grid-template: repeat(10, 25px) / 1fr;
 }
+
 .row-4 {
     grid-row: 4;
 }
-.row-6{
+
+.row-6 {
     grid-row: 6;
 }
-.row-7{
+
+.row-7 {
     grid-row: 7
 }
-.row-8{
+
+.row-8 {
     grid-row: 8;
 }
-.row_4-5{
+
+.row_4-5 {
     grid-row: 4/6;
 }
