@@ -1,0 +1,113 @@
+.button {
+    text-align: center;
+    width: 160px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.button-text {
+    text-align: center;
+}
+
+.dd-menu {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    width: 160px;
+}
+
+.list li:hover > ul,
+.list li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.list li .dd-menu li {
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+.list {
+    margin-bottom: 10px;
+}
+
+.nav {
+    width: 159px;
+    margin: 0 auto;
+}
+
+.nav-1 {
+    width: 159px;
+    margin: 0 auto;
+}
+
+.inside-nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.big-logo {
+    margin-top: 30%;
+    margin-left: 15%;
+    text-align: center;
+    padding: 10px;
+}
+
+.banner-content {
+    text-align: center;
+    padding: 10px;
+}
+
+.banner-intro {
+    margin: 50px;
+    padding: 50px;
+}
+
+.about-p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.row-p {
+    text-align: center;
+    padding: 10px;
+}
+
+.row-1 {
+    display: inline-block;
+    position: relative;
+}
+
+.row-2 {
+    display: inline-block;
+    position: relative;
+}
+
+.row-3 {
+    display: inline-block;
+    position: relative;
+}
+
+.icon-p {
+    margin-top: 40%;
+    text-align: left;
+}
+
+.mBanner{
+    display: none;
+}
+
+.col_1-2m{
+    display: none;
+}

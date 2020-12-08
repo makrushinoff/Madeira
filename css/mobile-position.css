@@ -1,0 +1,48 @@
+@media screen and (max-width: 320px) {
+    .menu-button {
+        margin: 10px;
+    }
+
+    .mLogoWhite{
+        margin-top: 50px;
+    }
+
+    .mBanner-content {
+        text-align: center;
+    }
+
+    h2 {
+        margin: 40px;
+        text-align: center;
+    }
+
+    .row-p {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .mBanner-intro {
+        margin-top: 100px;
+    }
+
+    .about-p {
+        line-height: 20px;
+        text-align: justify;
+    }
+
+    .m-icon {
+        margin: 0 auto;
+    }
+
+    .icon-p {
+        margin-top: 10%;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .row_4-5 {
+        margin-left: 25px;
+    }
+}
